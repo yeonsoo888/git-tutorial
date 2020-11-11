@@ -1,0 +1,128 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>김연수 Portfolio</title>
+
+	<script src="js/jquery.min.js" charset="utf-8"></script>
+	<script src="https://swiperjs.com/package/swiper-bundle.min.js"></script>
+	<script src="js/custom.js" charset="utf-8"></script>
+
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="icon" href="img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://swiperjs.com/package/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+	<header>
+		<div class="header">
+			<h1><a href="/">Yeonsoo<br>Portfolio</a></h1>
+			<div class="menu_btn">
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu_bg">
+				<div class="menu_bg_inner">
+					<div class="gnb">
+						<ul>
+							<li><a href="javascript:void(0)">Main</a></li>
+							<li><a href="javascript:void(0)" class="Responsive">Responsive Web</a></li>
+							<li><a href="javascript:void(0)" class="mobile">Mobile Web</a></li>
+							<li><a href="javascript:void(0)" class="PC">PC Web</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide section01">
+				<div class="bg"></div>
+				<div class="bg_opac"></div>
+				<div class="main_intro">
+					<span class="txt01"><span>NEW</span> Web Publisher</span>
+					<div class="txt02"><strong><span>코딩을 좋아하는</span> <br>김연수 입니다.</strong></div>
+					<p>
+                        안녕하세요. 신입 웹 퍼블리셔 김연수 입니다.</br>
+                        저의 강점은 상대방의 입장에서 생각하는 마음이라고 생각합니다.</br>
+                        이용자의 입장에서 먼저 생각하고 배려하는 웹 퍼블리셔가 되겠습니다.</br>
+					</p>
+					<div class="btn_wrap">
+						<a  href="/document/self-introduction.pdf" class="btn01 btn_base btn_ef01">
+							<span>자소서 보기</span>
+						</a>
+					</div>
+				</div>
+            </div>
+            <div class="swiper-slide section02">
+				<div class="bg"></div>
+				<div class="bg_opac"></div>
+				<div class="main_intro">
+					<span class="txt01"><span>Responsive</span>  사이트 리뉴얼</span>
+					<div class="txt02"><strong>TOSS</strong></div>
+					<p>
+					제작기간 : 20.10.24 - 20.11.04<br>
+					기획 100% / 디자인 100% / 퍼블리싱 100%
+					</p>
+					<div class="btn_wrap">
+						<a  href="./src/responsive.html" class="btn01 btn_base btn_ef01">
+							<span>사이트 바로가기</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide section03">
+				<div class="bg"></div>
+				<div class="bg_opac"></div>
+				<div class="main_intro">
+					<span class="txt01"><span>Mobile</span>  사이트 리뉴얼</span>
+					<div class="txt02"><strong>Mnet</strong></div>
+					<p>
+					제작기간 : 20.10.18 - 20.10.23<br>
+					기획 100% / 디자인 100% / 퍼블리싱 100%
+					</p>
+					<div class="btn_wrap">
+                        <a class="btn01 btn_base btn_ef01 mobile_btn" href="" onclick="window.open('./src/mobile.html', 'mobile', 'top=100px, left=100px, height=568px, width=400px')">
+							<span>사이트 바로가기</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide section04">
+				<div class="bg"></div>
+				<div class="bg_opac"></div>
+				<div class="main_intro">
+					<span class="txt01"><span>PC</span>  사이트 리뉴얼</span>
+					<div class="txt02"><strong>TOMMY</br>HILFIGER</strong></div>
+					<p>
+					제작기간 : 20.10.10 - 20.10.15<br>
+					기획 100% / 디자인 100% / 퍼블리싱 100%
+					</p>
+					<div class="btn_wrap">
+						<a  href="./src/pc.html" class="btn01 btn_base btn_ef01">
+							<span>사이트 바로가기</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<div class="page_control">
+		<span class="prev_btn">PREV</span>
+		<i></i>
+		<span class="next_btn">NEXT</span>
+	</div>
+
+</body>
+</html>
